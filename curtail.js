@@ -1529,4 +1529,4 @@ function _convert() {
   return _convert.apply(this, arguments);
 }
 
-export { convert, crop, pad, resize, rotate };
+module.exports = { convert, crop, pad, resize, rotate };
